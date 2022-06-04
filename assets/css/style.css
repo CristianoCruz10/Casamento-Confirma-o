@@ -1,0 +1,134 @@
+:root{
+    font-size: 60.2%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    margin-top: 2rem;
+    border-radius: 0.7rem;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration:underline;
+}
+body{
+    
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem ;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    background-color: #e4e4e4;
+    
+}
+.ContainerMain{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    
+    background-color: #f76c6f;
+    width:min( 45rem ,100%);
+    padding: 2.5rem;
+    gap: 2rem;
+    margin-top:5rem;
+    margin-inline: auto ;
+    border-radius: .7rem;
+    align-items: center;
+    text-align: center;
+    color: white;
+    transition:all .6s;
+    
+}
+
+.container  h4{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: cursive;
+}
+
+
+
+.buttons{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+.gab{
+    display: none;
+    transition: all .6s;
+}
+
+button{
+    cursor: pointer;
+    width: 48%;
+    height: 3rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    background-color: #ee9092;
+    border-radius: 0.7em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;    }
+    
+    button:hover{
+        transform: scale(1.05);
+        transition: .4s;
+    }
+    
+    .clear, .clearNo{
+        margin-top: 2rem;
+     width:min( 45rem ,100%);
+    color: white;
+    border: 0;
+    background-color: #f76c6f;
+    border-radius: 0.7em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+     transition:all .6s;
+     padding: 2.5rem;
+ }
+
+ .clear, .clearNo, a{
+     margin-bottom: 2rem;
+    }
+   
+    .containerImage{
+        margin-top: 2rem;
+        margin-inline: auto;
+        display: inline-block;
+        background-color: white;
+        padding: 1rem;
+        padding-bottom:3rem;
+    }
+    .imgDefault{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    @media screen and (max-width:466px) {
+        
+    }
